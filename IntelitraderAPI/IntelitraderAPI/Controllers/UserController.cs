@@ -1,16 +1,38 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using IntelitraderAPI.Domains;
+using IntelitraderAPI.Interfaces;
+using IntelitraderAPI.Repositorios;
+using Microsoft.AspNetCore.Mvc;
 
 namespace IntelitraderAPI.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class UserController : Controller
     {
-        public IActionResult Index()
+        private readonly IUserRepository _userRepository;
+
+        public UserController()
         {
-            return View();
+            _userRepository = new UserRepository();
         }
+
+        [HttpPost]
+        public IActionResult Post(User user)
+        {
+            try
+            {
+                _userRepository.Adicionar(user);
+
+                //  implementar generic result
+                //  return Ok('Usuário registrado com sucesso!', user);
+
+                return Ok(user);
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
     }
 }

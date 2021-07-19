@@ -15,11 +15,11 @@ namespace IntelitraderAPI.Domains
         }
 
         [Key]
-        public Guid id { get; set; }
+        public Guid id { get; private set; }
         public string firstName { get; set; }
         public string surName { get; set; }
         public int age { get; set; }
-        public DateTime creationDate { get; set; }
+        public DateTime creationDate { get; private set; }
         
     }
 }
