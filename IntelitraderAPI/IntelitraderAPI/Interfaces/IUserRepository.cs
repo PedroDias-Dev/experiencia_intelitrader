@@ -9,7 +9,7 @@ namespace IntelitraderAPI.Interfaces
         List<User> Listar();
         User BuscarPorId(Guid id);
         void Adicionar(User user);
-        void Editar(User user);
+        void Editar(Guid id, User user);
         void Remover(Guid id);
     }
 }

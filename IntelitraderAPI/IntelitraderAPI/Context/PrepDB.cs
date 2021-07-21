@@ -23,7 +23,7 @@ namespace IntelitraderAPI.Context
         {
             System.Console.WriteLine("Aplicando Migrations...");
 
-            context.Database.Migrate();
+            //context.Database.Migrate();
 
             if(!context.Users.Any())
             {

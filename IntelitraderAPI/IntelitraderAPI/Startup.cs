@@ -28,14 +28,15 @@ namespace IntelitraderAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddDbContext<UsersContext>(o => o.UseSqlServer("Data Source=localhost,1433;Initial Catalog=Users;User Id=SA;Password=DockerSql2021!;"));
+            // local database connection
+            services.AddDbContext<UsersContext>(o => o.UseSqlServer("Data Source = DESKTOP-AUB5PDB\\SQLEXPRESS; Initial Catalog= Users;user id=sa; password=sa132"));
 
-            var connection = @"Server=users-api-database;Database=Users;User Id=SA;Password=DockerSql2021!;";
 
-            // This line uses 'UseSqlServer' in the 'options' parameter
-            // with the connection string defined above.
-            services.AddDbContext<UsersContext>(
-                options => options.UseSqlServer(connection));                
+            // docker database connection
+            //var connection = @"Server=users-api-database;Database=Users;User Id=SA;Password=DockerSql2021!;";
+
+            //services.AddDbContext<UsersContext>(
+                //options => options.UseSqlServer(connection));                
 
             services.AddMvc();
 
@@ -55,6 +56,8 @@ namespace IntelitraderAPI
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "IntelitraderAPI v1"));
             }
+
+            //loggerFactory.AddFile($"Logs/{DateTime.Now}_log.txt");
 
             // app.UseMvc();
 

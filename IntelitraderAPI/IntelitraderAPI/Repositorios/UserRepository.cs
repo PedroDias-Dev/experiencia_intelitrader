@@ -1,6 +1,7 @@
 ﻿using IntelitraderAPI.Context;
 using IntelitraderAPI.Domains;
 using IntelitraderAPI.Interfaces;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,14 +41,14 @@ namespace IntelitraderAPI.Repositorios
             }
         }
 
-        public void Editar(User user)
+        public void Editar(Guid id, User user)
         {
             try
             {
-                User userTemp = BuscarPorId(user.id);
+                User userTemp = BuscarPorId(id);
 
                 if (userTemp == null)
-                    throw new Exception("Produto não encontrado");
+                    throw new Exception("Usuario não encontrado");
 
                 userTemp.firstName = user.firstName;
                 userTemp.surName = user.surName;
@@ -66,7 +67,7 @@ namespace IntelitraderAPI.Repositorios
         {
             try
             {
-                _ctx.Users.Add(user);
+                _ctx.Users.Add(user);            
 
                 _ctx.SaveChanges();
             }
