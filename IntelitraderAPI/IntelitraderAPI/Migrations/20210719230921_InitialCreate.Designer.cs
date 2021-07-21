@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IntelitraderAPI.Migrations
 {
     [DbContext(typeof(UsersContext))]
-    [Migration("20210719182613_InitialCreate")]
+    [Migration("20210719230921_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -1,22 +1,16 @@
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-FROM mcr.microsoft.com/dotnet/aspnet:5.0-buster-slim AS base
+# syntax=docker/dockerfile:1
+
+FROM mcr.microsoft.com/dotnet/sdk:5.0
+COPY . /app
 WORKDIR /app
-EXPOSE 80
-EXPOSE 443
+RUN ["dotnet", "restore"]
+RUN ["dotnet", "build"]
+# ENV ASPNETCORE_URLS=http://+:5000
+# ENV ASPNETCORE_ENVIRONMENT=”development”
+EXPOSE 5000
+# RUN chmod +x entrypoint.sh
+# CMD /bin/bash entrypoint.sh
+ENTRYPOINT ["dotnet", "run", "--server.urls", "http://0.0.0.0:5000"]
 
-FROM mcr.microsoft.com/dotnet/sdk:5.0-buster-slim AS build
-WORKDIR /src
-COPY ["IntelitraderAPI/IntelitraderAPI.csproj", "IntelitraderAPI/"]
-RUN dotnet restore "IntelitraderAPI/IntelitraderAPI.csproj"
-COPY . .
-WORKDIR "/src/IntelitraderAPI"
-RUN dotnet build "IntelitraderAPI.csproj" -c Release -o /app/build
-
-FROM build AS publish
-RUN dotnet publish "IntelitraderAPI.csproj" -c Release -o /app/publish
-
-FROM base AS final
-WORKDIR /app
-COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "IntelitraderAPI.dll"]

@@ -1,8 +1,12 @@
+using IntelitraderAPI.Context;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -13,7 +17,42 @@ namespace IntelitraderAPI
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            // var host = CreateHostBuilder(args).Build();
+
+            var host = new WebHostBuilder()
+                .UseKestrel()
+                .UseContentRoot(Directory.GetCurrentDirectory())
+                .UseUrls("http://*:5000")
+                .UseIISIntegration()
+                .UseStartup<Startup>()
+                .Build();
+
+            using (var scope = host.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                var context = services.GetRequiredService<UsersContext>();
+                context.Database.Migrate();
+
+                // requires using Microsoft.Extensions.Configuration;
+                var config = host.Services.GetRequiredService<IConfiguration>();
+                // Set password with the Secret Manager tool.
+                // dotnet user-secrets set SeedUserPW <pw>
+
+                var testUserPw = config["SeedUserPW"];
+                var logger = services.GetRequiredService<ILogger<Program>>();
+
+                try
+                {
+                    PrepDB.SeedData(context);
+                }
+                catch (Exception ex)
+                {
+                    logger.LogError(ex.Message, "An error occurred seeding the DB.");
+                }
+            }
+
+            host.Run();
+
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
