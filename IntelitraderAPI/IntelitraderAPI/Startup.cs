@@ -34,9 +34,8 @@ namespace IntelitraderAPI
 
             // docker database connection
             //var connection = @"Server=users-api-database;Database=Users;User Id=SA;Password=DockerSql2021!;";
-
             //services.AddDbContext<UsersContext>(
-                //options => options.UseSqlServer(connection));                
+            //    options => options.UseSqlServer(connection));                
 
             services.AddMvc();
 
@@ -61,7 +60,7 @@ namespace IntelitraderAPI
 
             // app.UseMvc();
 
-            PrepDB.PrepPopulation(app);
+            //PrepDB.PrepPopulation(app);
 
             app.UseHttpsRedirection();
 

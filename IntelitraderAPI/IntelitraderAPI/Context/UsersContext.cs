@@ -1,4 +1,5 @@
-﻿using IntelitraderAPI.Domains;
+﻿using Flunt.Notifications;
+using IntelitraderAPI.Domains;
 using Microsoft.EntityFrameworkCore;
 
 namespace IntelitraderAPI.Context
@@ -14,6 +15,11 @@ namespace IntelitraderAPI.Context
             : base(options)
         {
 
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Ignore<Notification>();
         }
 
         public DbSet<User> Users { get; set; }

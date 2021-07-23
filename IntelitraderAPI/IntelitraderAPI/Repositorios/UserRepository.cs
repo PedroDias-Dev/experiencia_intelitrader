@@ -48,7 +48,11 @@ namespace IntelitraderAPI.Repositorios
                 User userTemp = BuscarPorId(id);
 
                 if (userTemp == null)
-                    throw new Exception("Usuario não encontrado");
+                    throw new Exception("Usuario não encontrado!");
+
+                user.Validar(user);
+                if (user.Invalid)
+                    throw new Exception("Dados Inválidos!");
 
                 userTemp.firstName = user.firstName;
                 userTemp.surName = user.surName;
@@ -67,6 +71,10 @@ namespace IntelitraderAPI.Repositorios
         {
             try
             {
+                user.Validar(user);
+                if (user.Invalid)
+                    throw new Exception("Dados Inválidos!");
+
                 _ctx.Users.Add(user);            
 
                 _ctx.SaveChanges();

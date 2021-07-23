@@ -1,17 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Flunt.Validations;
+using System;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
+using Flunt.Notifications;
 
 namespace IntelitraderAPI.Domains
 {
-    public class User
+    public class User : Notifiable
     {
-        public User()
+
+        //public User()
+        //{
+        //id = Guid.NewGuid();
+        //creationDate = DateTime.Now;
+        // }
+
+        public void Validar(User user)
         {
-            id = Guid.NewGuid();
-            creationDate = DateTime.Now;
+            AddNotifications(new Contract()
+                .Requires()
+                .IsNotNullOrEmpty(user.firstName, "First Name", "Informe o nome do usuário! (Entity Error)")
+                .IsNotNullOrEmpty(user.surName, "Sur Name", "Informe o segundo nome do usuário! (Entity Error)")
+                .IsNotNullOrEmpty(user.age.ToString(), "Age", "Informe a idade do usuário! (Entity Error)")
+            );
         }
 
         [Key]

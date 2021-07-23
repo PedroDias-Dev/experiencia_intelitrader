@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntelitraderAPI", "IntelitraderAPI\IntelitraderAPI.csproj", "{6E2D31A8-334E-4A7D-A60F-C6107371C0B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelitraderAPI.Testes", "IntelitraderAPI.Testes\IntelitraderAPI.Testes.csproj", "{23AFF989-D40B-4042-BA46-44CB92C5267D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntelitraderAPI.Testes", "IntelitraderAPI.Testes\IntelitraderAPI.Testes.csproj", "{23AFF989-D40B-4042-BA46-44CB92C5267D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

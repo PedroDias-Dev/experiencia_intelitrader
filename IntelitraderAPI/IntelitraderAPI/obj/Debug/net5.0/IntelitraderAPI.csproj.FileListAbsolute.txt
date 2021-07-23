@@ -66,3 +66,4 @@ D:\Programação\Projetos\Intelitrader\API\IntelitraderAPI\IntelitraderAPI\bin\D
 D:\Programação\Projetos\Intelitrader\API\IntelitraderAPI\IntelitraderAPI\bin\Debug\net5.0\Serilog.Sinks.Async.dll
 D:\Programação\Projetos\Intelitrader\API\IntelitraderAPI\IntelitraderAPI\bin\Debug\net5.0\Serilog.Sinks.File.dll
 D:\Programação\Projetos\Intelitrader\API\IntelitraderAPI\IntelitraderAPI\bin\Debug\net5.0\Serilog.Sinks.RollingFile.dll
+D:\Programação\Projetos\Intelitrader\API\IntelitraderAPI\IntelitraderAPI\bin\Debug\net5.0\Flunt.dll
