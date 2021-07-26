@@ -29,13 +29,12 @@ namespace IntelitraderAPI
         public void ConfigureServices(IServiceCollection services)
         {
             // local database connection
-            services.AddDbContext<UsersContext>(o => o.UseSqlServer("Data Source = DESKTOP-AUB5PDB\\SQLEXPRESS; Initial Catalog= Users;user id=sa; password=sa132"));
-
+            //services.AddDbContext<UsersContext>(o => o.UseSqlServer("Data Source = DESKTOP-AUB5PDB\\SQLEXPRESS; Initial Catalog= Users;user id=sa; password=sa132"));
 
             // docker database connection
-            //var connection = @"Server=users-api-database;Database=Users;User Id=SA;Password=DockerSql2021!;";
-            //services.AddDbContext<UsersContext>(
-            //    options => options.UseSqlServer(connection));                
+            var connection = @"Server=users-api-database;Database=Users;User Id=SA;Password=DockerSql2021!;";
+            services.AddDbContext<UsersContext>(
+               options => options.UseSqlServer(connection));                
 
             services.AddMvc();
 
@@ -60,7 +59,7 @@ namespace IntelitraderAPI
 
             // app.UseMvc();
 
-            //PrepDB.PrepPopulation(app);
+            PrepDB.PrepPopulation(app);
 
             app.UseHttpsRedirection();
 

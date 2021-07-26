@@ -27,9 +27,9 @@ namespace IntelitraderAPI.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
-                optionsBuilder.UseSqlServer(@"Data Source = DESKTOP-AUB5PDB\SQLEXPRESS; Initial Catalog = Users; user id=sa; password = sa132");
+                //optionsBuilder.UseSqlServer(@"Data Source = DESKTOP-AUB5PDB\SQLEXPRESS; Initial Catalog = Users; user id=sa; password = sa132");
 
-                //optionsBuilder.UseSqlServer(@"Server=users-api-database;Database=Users;User Id=SA;Password=DockerSql2021!");
+                optionsBuilder.UseSqlServer(@"Server=users-api-database;Database=Users;User Id=SA;Password=DockerSql2021!");
 
             base.OnConfiguring(optionsBuilder);
 

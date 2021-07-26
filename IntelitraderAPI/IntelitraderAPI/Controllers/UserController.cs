@@ -25,6 +25,8 @@ namespace IntelitraderAPI.Controllers
         public IActionResult Get()
         {
             _logger.LogInformation($"Pesquisa de usuários realizada! {DateTime.UtcNow.ToLongTimeString()}");
+            System.Console.WriteLine($"Pesquisa de usuários realizada! {DateTime.UtcNow.ToLongTimeString()}");
+
             try
             {
                 var users = _userRepository.Listar();
@@ -41,6 +43,8 @@ namespace IntelitraderAPI.Controllers
             catch (Exception ex)
             {
                 _logger.LogInformation($"Houve um erro: {ex.Message}. {DateTime.UtcNow.ToLongTimeString()}");
+                System.Console.WriteLine($"Houve um erro: {ex.Message}. {DateTime.UtcNow.ToLongTimeString()}");
+
                 return BadRequest(new
                 {
                     statusCode = 400,
@@ -60,11 +64,15 @@ namespace IntelitraderAPI.Controllers
                 //  return Ok('Usuário registrado com sucesso!', user);
 
                 _logger.LogInformation($"Novo Usuário criado! {DateTime.UtcNow.ToLongTimeString()}");
+                System.Console.WriteLine($"Novo Usuário criado! {DateTime.UtcNow.ToLongTimeString()}");
+
                 return Ok(user);
             }
             catch (System.Exception ex)
             {
                 _logger.LogInformation($"Houve um erro: {ex.Message}. {DateTime.UtcNow.ToLongTimeString()}");
+                System.Console.WriteLine($"Houve um erro: {ex.Message}. {DateTime.UtcNow.ToLongTimeString()}");
+
                 return BadRequest(ex.Message);
             }
         }
@@ -77,11 +85,15 @@ namespace IntelitraderAPI.Controllers
                 _userRepository.Editar(id, user);
 
                 _logger.LogInformation($"O cadastro do usuário {id} foi alterado! {DateTime.UtcNow.ToLongTimeString()}");
+                System.Console.WriteLine($"O cadastro do usuário {id} foi alterado! {DateTime.UtcNow.ToLongTimeString()}");
+
                 return Ok(user);
             }
             catch (Exception ex)
             {
                 _logger.LogInformation($"Houve um erro: {ex.Message}. {DateTime.UtcNow.ToLongTimeString()}");
+                System.Console.WriteLine($"Houve um erro: {ex.Message}. {DateTime.UtcNow.ToLongTimeString()}");
+
                 return BadRequest(ex.Message);
             }
         }
@@ -94,11 +106,15 @@ namespace IntelitraderAPI.Controllers
                 _userRepository.Remover(id);
 
                 _logger.LogInformation($"O usuário {id} foi removido do sistema! {DateTime.UtcNow.ToLongTimeString()}");
+                System.Console.WriteLine($"O usuário {id} foi removido do sistema! {DateTime.UtcNow.ToLongTimeString()}");
+
                 return Ok(id);
             }
             catch (Exception ex)
             {
                 _logger.LogInformation($"Houve um erro: {ex.Message}. {DateTime.UtcNow.ToLongTimeString()}");
+                System.Console.WriteLine($"Houve um erro: {ex.Message}. {DateTime.UtcNow.ToLongTimeString()}");
+
                 return BadRequest(ex.Message);
             }
         }
