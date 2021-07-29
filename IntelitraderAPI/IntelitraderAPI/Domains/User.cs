@@ -19,7 +19,8 @@ namespace IntelitraderAPI.Domains
             AddNotifications(new Contract()
                 .Requires()
                 .IsNotNullOrEmpty(user.firstName, "First Name", "Informe o nome do usuário! (Entity Error)")
-                .IsNotNullOrEmpty(user.surName, "Sur Name", "Informe o segundo nome do usuário! (Entity Error)")
+                // surname não é obrigatorio
+                //.IsNotNullOrEmpty(user.surName, "Sur Name", "Informe o segundo nome do usuário! (Entity Error)")
                 .IsNotNullOrEmpty(user.age.ToString(), "Age", "Informe a idade do usuário! (Entity Error)")
             );
         }

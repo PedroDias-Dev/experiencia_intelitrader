@@ -16,7 +16,7 @@ namespace IntelitraderAPI.Testes.Domains
             // sem o primeiro nome
             var user = new User() { firstName = "a", age = 19, surName = "" };
             user.Validar(user);
-            Assert.True(user.Invalid, "Usuário é válido!");
+            Assert.False(user.Invalid, "Usuário é válido!");
         }
 
         [Fact]
@@ -25,7 +25,7 @@ namespace IntelitraderAPI.Testes.Domains
             // sem a idade
             var user2 = new User() { firstName = "", age = 0, surName = "Dias" };
             user2.Validar(user2);
-            Assert.True(user2.Invalid, "Usuário 2 é válido!");
+            Assert.False(user2.Invalid, "Usuário 2 é válido!");
         }
 
         [Fact]
@@ -34,7 +34,7 @@ namespace IntelitraderAPI.Testes.Domains
             // sem o segundo nome
             var user3 = new User() { firstName = "asasdasd", age = 19, surName = "a" };
             user3.Validar(user3);
-            Assert.True(user3.Invalid, "Usuário 3 é válido!");
+            Assert.False(user3.Invalid, "Usuário 3 é válido!");
         }
     }
 }

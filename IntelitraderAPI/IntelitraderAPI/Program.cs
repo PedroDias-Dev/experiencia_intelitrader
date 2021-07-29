@@ -18,8 +18,11 @@ namespace IntelitraderAPI
     {
         public static void Main(string[] args)
         {
+            // local
             //var host = CreateHostBuilder(args).Build();
 
+
+            // docker
             var host = new WebHostBuilder()
                .UseKestrel()
                .UseContentRoot(Directory.GetCurrentDirectory())
