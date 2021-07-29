@@ -11,14 +11,14 @@ namespace IntelitraderAPI.Controllers
     [ApiController]
     public class UserController : Controller
     {
-        private readonly UserRepository _userRepository;
+        private readonly IUserRepository _userRepository;
         private readonly ILogger _logger;
         public string Message { get; set; }
 
-        public UserController(ILogger<UserController> logger)
+        public UserController(ILogger<UserController> logger, IUserRepository userRepository)
         {
             _logger = logger;
-            //_userRepository = new UserRepository();
+            _userRepository = userRepository;
         }
 
         protected void Logs(Exception ex)
