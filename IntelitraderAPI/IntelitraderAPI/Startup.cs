@@ -1,4 +1,6 @@
 using IntelitraderAPI.Context;
+using IntelitraderAPI.Interfaces;
+using IntelitraderAPI.Repositorios;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -18,23 +20,22 @@ namespace IntelitraderAPI
 {
     public class Startup
     {
+        public IConfiguration Configuration { get; }
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
 
-        public IConfiguration Configuration { get; }
-
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             // local database connection
-            //services.AddDbContext<UsersContext>(o => o.UseSqlServer("Data Source = DESKTOP-AUB5PDB\\SQLEXPRESS; Initial Catalog= Users;user id=sa; password=sa132"));
+            services.AddDbContext<UsersContext>(o => o.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             // docker database connection
-            var connection = @"Server=users-api-database;Database=Users;User Id=SA;Password=DockerSql2021!;";
-            services.AddDbContext<UsersContext>(
-               options => options.UseSqlServer(connection));                
+            //var connection = Configuration.GetConnectionString("DefaultConnection");
+            //services.AddDbContext<UsersContext>(
+            //   options => options.UseSqlServer(connection));                
 
             services.AddMvc();
 
@@ -43,6 +44,9 @@ namespace IntelitraderAPI
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "IntelitraderAPI", Version = "v1" });
             });
+
+            //Injeção Dependência Usuário
+            services.AddTransient<IUserRepository, UserRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,7 +63,7 @@ namespace IntelitraderAPI
 
             // app.UseMvc();
 
-            PrepDB.PrepPopulation(app);
+            //PrepDB.PrepPopulation(app);
 
             app.UseHttpsRedirection();
 

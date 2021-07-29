@@ -11,15 +11,21 @@ namespace IntelitraderAPI.Controllers
     [ApiController]
     public class UserController : Controller
     {
-        private readonly IUserRepository _userRepository;
+        private readonly UserRepository _userRepository;
         private readonly ILogger _logger;
+        public string Message { get; set; }
 
         public UserController(ILogger<UserController> logger)
         {
             _logger = logger;
-            _userRepository = new UserRepository();
+            //_userRepository = new UserRepository();
         }
-        public string Message { get; set; }
+
+        protected void Logs(Exception ex)
+        {
+            _logger.LogInformation($"Houve um erro: {ex.Message}. {DateTime.UtcNow.ToLongTimeString()}");
+            System.Console.WriteLine($"Houve um erro: {ex.Message}. {DateTime.UtcNow.ToLongTimeString()}");
+        }
 
         [HttpGet]
         public IActionResult Get()
@@ -42,8 +48,7 @@ namespace IntelitraderAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogInformation($"Houve um erro: {ex.Message}. {DateTime.UtcNow.ToLongTimeString()}");
-                System.Console.WriteLine($"Houve um erro: {ex.Message}. {DateTime.UtcNow.ToLongTimeString()}");
+                Logs(ex);
 
                 return BadRequest(new
                 {
@@ -70,8 +75,7 @@ namespace IntelitraderAPI.Controllers
             }
             catch (System.Exception ex)
             {
-                _logger.LogInformation($"Houve um erro: {ex.Message}. {DateTime.UtcNow.ToLongTimeString()}");
-                System.Console.WriteLine($"Houve um erro: {ex.Message}. {DateTime.UtcNow.ToLongTimeString()}");
+                Logs(ex);
 
                 return BadRequest(ex.Message);
             }
@@ -91,8 +95,7 @@ namespace IntelitraderAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogInformation($"Houve um erro: {ex.Message}. {DateTime.UtcNow.ToLongTimeString()}");
-                System.Console.WriteLine($"Houve um erro: {ex.Message}. {DateTime.UtcNow.ToLongTimeString()}");
+                Logs(ex);
 
                 return BadRequest(ex.Message);
             }
@@ -112,8 +115,7 @@ namespace IntelitraderAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogInformation($"Houve um erro: {ex.Message}. {DateTime.UtcNow.ToLongTimeString()}");
-                System.Console.WriteLine($"Houve um erro: {ex.Message}. {DateTime.UtcNow.ToLongTimeString()}");
+                Logs(ex);
 
                 return BadRequest(ex.Message);
             }

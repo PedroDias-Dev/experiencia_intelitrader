@@ -8,11 +8,11 @@ namespace IntelitraderAPI.Domains
     public class User : Notifiable
     {
 
-        //public User()
-        //{
-        //id = Guid.NewGuid();
-        //creationDate = DateTime.Now;
-        // }
+        public User()
+        {
+            id = Guid.NewGuid();
+            creationDate = DateTime.Now;
+        }
 
         public void Validar(User user)
         {

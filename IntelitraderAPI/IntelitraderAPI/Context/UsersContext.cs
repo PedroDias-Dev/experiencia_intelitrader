@@ -1,11 +1,15 @@
 ﻿using Flunt.Notifications;
 using IntelitraderAPI.Domains;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using System;
 
 namespace IntelitraderAPI.Context
 {
     public class UsersContext : DbContext
     {
+        public DbSet<User> Users { get; set; }
+
         public UsersContext()
         {
 
@@ -22,14 +26,17 @@ namespace IntelitraderAPI.Context
             modelBuilder.Ignore<Notification>();
         }
 
-        public DbSet<User> Users { get; set; }
-
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if (!optionsBuilder.IsConfigured)
-                //optionsBuilder.UseSqlServer(@"Data Source = DESKTOP-AUB5PDB\SQLEXPRESS; Initial Catalog = Users; user id=sa; password = sa132");
+            IConfigurationRoot configuration = new ConfigurationBuilder()
+                .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
+                .AddJsonFile("appsettings.json")
+                .Build();
 
-                optionsBuilder.UseSqlServer(@"Server=users-api-database;Database=Users;User Id=SA;Password=DockerSql2021!");
+            if (!optionsBuilder.IsConfigured)
+                optionsBuilder.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
+
+                //optionsBuilder.UseSqlServer(@"Server=users-api-database;Database=Users;User Id=SA;Password=DockerSql2021!");
 
             base.OnConfiguring(optionsBuilder);
 
