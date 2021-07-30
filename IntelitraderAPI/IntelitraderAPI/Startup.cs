@@ -30,12 +30,12 @@ namespace IntelitraderAPI
         public void ConfigureServices(IServiceCollection services)
         {
             // local database connection
-            services.AddDbContext<UsersContext>(o => o.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            //services.AddDbContext<UsersContext>(o => o.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             // docker database connection
-            //var connection = @"Server=users-api-database;Database=Users;User Id=SA;Password=DockerSql2021!";
-            //services.AddDbContext<UsersContext>(
-            //   options => options.UseSqlServer(connection));                
+            var connection = @"Server=users-api-database;Database=Users;User Id=SA;Password=DockerSql2021!";
+            services.AddDbContext<UsersContext>(
+              options => options.UseSqlServer(connection));                
 
             services.AddMvc();
 
@@ -59,11 +59,7 @@ namespace IntelitraderAPI
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "IntelitraderAPI v1"));
             }
 
-            //loggerFactory.AddFile($"Logs/{DateTime.Now}_log.txt");
-
-            // app.UseMvc();
-
-            //PrepDB.PrepPopulation(app);
+            PrepDB.PrepPopulation(app);
 
             app.UseHttpsRedirection();
 

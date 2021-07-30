@@ -91,7 +91,7 @@ namespace IntelitraderAPI.Controllers
                 _logger.LogInformation($"O cadastro do usuário {id} foi alterado! {DateTime.UtcNow.ToLongTimeString()}");
                 System.Console.WriteLine($"O cadastro do usuário {id} foi alterado! {DateTime.UtcNow.ToLongTimeString()}");
 
-                return Ok(user);
+                return Ok();
             }
             catch (Exception ex)
             {
@@ -111,7 +111,7 @@ namespace IntelitraderAPI.Controllers
                 _logger.LogInformation($"O usuário {id} foi removido do sistema! {DateTime.UtcNow.ToLongTimeString()}");
                 System.Console.WriteLine($"O usuário {id} foi removido do sistema! {DateTime.UtcNow.ToLongTimeString()}");
 
-                return Ok(id);
+                return Ok();
             }
             catch (Exception ex)
             {

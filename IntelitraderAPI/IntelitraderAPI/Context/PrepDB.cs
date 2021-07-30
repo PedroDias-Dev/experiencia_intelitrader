@@ -29,12 +29,12 @@ namespace IntelitraderAPI.Context
             {
                 System.Console.WriteLine("Adicionando itens...");
 
-                context.Users.AddRange(
-                    new User() { firstName = "Pedro", age = 19, surName = "Dias" },
-                    new User() { firstName = "Pedro", age = 19, surName = "Dias" },
-                    new User() { firstName = "Pedro", age = 19, surName = "Dias" }
-                );
-
+                //  adiciona novos usuarios no banco do docker
+                // context.Users.AddRange(
+                //     new User() { firstName = "Pedro", age = 19, surName = "Dias" },
+                //     new User() { firstName = "Pedro", age = 19, surName = "Dias" },
+                //     new User() { firstName = "Pedro", age = 19, surName = "Dias" }
+                // );
 
                 context.SaveChanges();
             }

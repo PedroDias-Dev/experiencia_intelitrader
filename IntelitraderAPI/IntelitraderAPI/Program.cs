@@ -19,37 +19,37 @@ namespace IntelitraderAPI
         public static void Main(string[] args)
         {
             // local
-            var host = CreateHostBuilder(args).Build();
+            //var host = CreateHostBuilder(args).Build();
 
             // docker
-            //var host = new WebHostBuilder()
-               //.UseKestrel()
-               //.UseContentRoot(Directory.GetCurrentDirectory())
-               //.UseUrls("http://*:5000")
-               //.UseIISIntegration()
-               //.UseStartup<Startup>()
-               //.Build();
+            var host = new WebHostBuilder()
+               .UseKestrel()
+               .UseContentRoot(Directory.GetCurrentDirectory())
+               .UseUrls("http://*:5000")
+               .UseIISIntegration()
+               .UseStartup<Startup>()
+               .Build();
 
-            //using (var scope = host.Services.CreateScope())
-            //{
-               //var services = scope.ServiceProvider;
-               //var context = services.GetRequiredService<UsersContext>();
-               //context.Database.Migrate();
+            using (var scope = host.Services.CreateScope())
+            {
+               var services = scope.ServiceProvider;
+               var context = services.GetRequiredService<UsersContext>();
+               context.Database.Migrate();
 
-               //var config = host.Services.GetRequiredService<IConfiguration>();
+               var config = host.Services.GetRequiredService<IConfiguration>();
 
-               //var testUserPw = config["SeedUserPW"];
-               //var logger = services.GetRequiredService<ILogger<Program>>();
+               var testUserPw = config["SeedUserPW"];
+               var logger = services.GetRequiredService<ILogger<Program>>();
 
-               //try
-               //{
-               //    PrepDB.SeedData(context);
-               //}
-               //catch (Exception ex)
-               //{
-               //    logger.LogError(ex.Message, "An error occurred seeding the DB.");
-               //}
-            //}
+               try
+               {
+                  PrepDB.SeedData(context);
+               }
+               catch (Exception ex)
+               {
+                  logger.LogError(ex.Message, "An error occurred seeding the DB.");
+               }
+            }
 
             host.Run();
 
