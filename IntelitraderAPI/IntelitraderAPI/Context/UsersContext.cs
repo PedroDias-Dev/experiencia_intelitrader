@@ -36,8 +36,6 @@ namespace IntelitraderAPI.Context
             if (!optionsBuilder.IsConfigured)
                 optionsBuilder.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
 
-                //optionsBuilder.UseSqlServer(@"Server=users-api-database;Database=Users;User Id=SA;Password=DockerSql2021!");
-
             base.OnConfiguring(optionsBuilder);
 
         }

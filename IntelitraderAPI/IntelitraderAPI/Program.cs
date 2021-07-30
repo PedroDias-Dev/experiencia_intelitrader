@@ -43,14 +43,13 @@ namespace IntelitraderAPI
 
                //try
                //{
-                   //PrepDB.SeedData(context);
+               //    PrepDB.SeedData(context);
                //}
                //catch (Exception ex)
                //{
-                   //logger.LogError(ex.Message, "An error occurred seeding the DB.");
+               //    logger.LogError(ex.Message, "An error occurred seeding the DB.");
                //}
             //}
-
 
             host.Run();
 

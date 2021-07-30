@@ -33,7 +33,7 @@ namespace IntelitraderAPI
             services.AddDbContext<UsersContext>(o => o.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             // docker database connection
-            //var connection = Configuration.GetConnectionString("DefaultConnection");
+            //var connection = @"Server=users-api-database;Database=Users;User Id=SA;Password=DockerSql2021!";
             //services.AddDbContext<UsersContext>(
             //   options => options.UseSqlServer(connection));                
 
@@ -45,7 +45,7 @@ namespace IntelitraderAPI
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "IntelitraderAPI", Version = "v1" });
             });
 
-            //Injeção Dependência Usuário
+            //Injecao Dependencia Usuario
             services.AddTransient<IUserRepository, UserRepository>();
         }
 
