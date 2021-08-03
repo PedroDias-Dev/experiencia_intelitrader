@@ -41,7 +41,6 @@ namespace IntelitraderMobile.ViewModels
             {
                 Items.Clear();
                 var items = await _userAPIService.GetUsers();
-                Console.WriteLine(items);
 
                 foreach (var item in items)
                 {
