@@ -40,11 +40,13 @@ namespace IntelitraderAPI.Controllers
                 if (users.Count == 0)
                     return NoContent();
 
-                return Ok(new
-                {
-                    totalCount = users.Count,
-                    data = users
-                });
+                //return Ok(new
+                //{
+                //    totalCount = users.Count,
+                //    data = users
+                //});
+
+                return Ok(users);
             }
             catch (Exception ex)
             {
@@ -112,6 +114,26 @@ namespace IntelitraderAPI.Controllers
                 System.Console.WriteLine($"O usuário {id} foi removido do sistema! {DateTime.UtcNow.ToLongTimeString()}");
 
                 return Ok();
+            }
+            catch (Exception ex)
+            {
+                Logs(ex);
+
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult GetById(Guid id)
+        {
+            try
+            {
+                var user = _userRepository.BuscarPorId(id);
+
+                _logger.LogInformation($"A pesquisa pelo usuário {id} foi realizada! {DateTime.UtcNow.ToLongTimeString()}");
+                System.Console.WriteLine($"A pesquisa pelo usuário {id} foi realizada! {DateTime.UtcNow.ToLongTimeString()}");
+
+                return Ok(user);
             }
             catch (Exception ex)
             {
