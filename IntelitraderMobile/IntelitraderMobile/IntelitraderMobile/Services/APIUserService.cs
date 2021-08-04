@@ -13,23 +13,14 @@ namespace IntelitraderMobile.Services
 {
     public class APIUserService : IUserService
     {
-        readonly List<User> items;
-
-        //private readonly HttpClient _httpClient;
-
         HttpClient _httpClient = new HttpClient();
-
-        //public APIUserService(HttpClient httpClient)
-            //:base()
-        //{
-           // _httpClient = httpClient;
-        //}
+        private string baseUrl = "http://10.0.2.2:5001/api/User/";
 
         public async Task AddUser(User item)
         {
             Console.WriteLine(item);
 
-            var response = await _httpClient.PostAsync("http://10.0.2.2:5001/api/User",
+            var response = await _httpClient.PostAsync(baseUrl,
                 new StringContent(JsonSerializer.Serialize(item), Encoding.UTF8, "application/json"));
 
             response.EnsureSuccessStatusCode();
@@ -37,7 +28,7 @@ namespace IntelitraderMobile.Services
 
         public async Task UpdateUser(string id, User item)
         {
-            var response = await _httpClient.PutAsync($"http://10.0.2.2:5001/api/User/" + id,
+            var response = await _httpClient.PutAsync(baseUrl + id,
                 new StringContent(JsonSerializer.Serialize(item), Encoding.UTF8, "application/json"));
 
             response.EnsureSuccessStatusCode();
@@ -45,14 +36,14 @@ namespace IntelitraderMobile.Services
 
         public async Task DeleteUser(string id)
         {
-            var response = await _httpClient.DeleteAsync($"http://10.0.2.2:5001/api/User/" + id);
+            var response = await _httpClient.DeleteAsync(baseUrl + id);
 
             response.EnsureSuccessStatusCode();
         }
 
         public async Task<User> GetUser(string id)
         {
-            var response = await _httpClient.GetAsync($"http://10.0.2.2:5001/api/User/" + id);
+            var response = await _httpClient.GetAsync(baseUrl + id);
 
             response.EnsureSuccessStatusCode();
 
@@ -62,7 +53,7 @@ namespace IntelitraderMobile.Services
 
         public async Task<IEnumerable<User>> GetUsers()
         {
-            var response = await _httpClient.GetAsync("http://10.0.2.2:5001/api/User");
+            var response = await _httpClient.GetAsync(baseUrl);
             System.Console.WriteLine(response);
 
             response.EnsureSuccessStatusCode();

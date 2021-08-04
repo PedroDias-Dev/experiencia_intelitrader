@@ -14,7 +14,6 @@ namespace IntelitraderMobile
             InitializeComponent();
 
             Startup.ConfigureServices();
-            //DependencyService.Register<APIUserService>();
             MainPage = new AppShell();
         }
 

@@ -20,18 +20,12 @@ namespace IntelitraderMobile.Views
         public ItemsPage()
         {
             InitializeComponent();
-
             BindingContext = _viewModel = new ItemsViewModel();
-
-            //_userViewModel = Startup.Resolve<ItemsViewModel>();
-            //BindingContext = _viewModel;
         }
 
         protected override void OnAppearing()
         {
-            base.OnAppearing();
-            _viewModel?.ExecuteLoadItemsCommand();
-            _viewModel.OnAppearing();       
+            _viewModel?.ExecuteLoadItemsCommand();    
         }
     }
 }

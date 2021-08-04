@@ -20,7 +20,7 @@ namespace IntelitraderMobile.ViewModels
         {
             _userAPIService = new APIUserService();
 
-            SaveCommand = new Command(OnSave);
+            SaveCommand = new Command(OnSave, ValidateSave);
             CancelCommand = new Command(OnCancel);
             this.PropertyChanged +=
                 (_, __) => SaveCommand.ChangeCanExecute();
@@ -28,9 +28,10 @@ namespace IntelitraderMobile.ViewModels
 
         private bool ValidateSave()
         {
-            return !String.IsNullOrWhiteSpace(firstName)
-                && !String.IsNullOrWhiteSpace(surName)
-                && !String.IsNullOrWhiteSpace(age.ToString());
+            return !String.IsNullOrWhiteSpace(FirstName)
+                && !String.IsNullOrWhiteSpace(SurName)
+                && Age > 1 && Age < 120
+                && !String.IsNullOrWhiteSpace(Age.ToString());
         }
 
         public string FirstName
@@ -67,7 +68,6 @@ namespace IntelitraderMobile.ViewModels
 
         private async void OnCancel()
         {
-            // This will pop the current page off the navigation stack
             await Shell.Current.GoToAsync("..");
         }
 
@@ -82,8 +82,6 @@ namespace IntelitraderMobile.ViewModels
             Console.WriteLine(newItem);
 
             await _userAPIService.AddUser(newItem);
-
-            // This will pop the current page off the navigation stack
             await Shell.Current.GoToAsync("..");
         }
     }

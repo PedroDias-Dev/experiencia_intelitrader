@@ -26,8 +26,6 @@ namespace IntelitraderMobile.ViewModels
 
             _userAPIService = new APIUserService();
 
-            ExecuteLoadItemsCommand();
-
             ItemTapped = new Command<User>(OnItemSelected);
 
             AddItemCommand = new Command(OnAddItem);
@@ -83,7 +81,6 @@ namespace IntelitraderMobile.ViewModels
             if (item == null)
                 return;
 
-            // This will push the ItemDetailPage onto the navigation stack
             await Shell.Current.GoToAsync($"{nameof(ItemDetailPage)}?{nameof(ItemDetailViewModel.ItemId)}={item.id}");
         }
     }

@@ -33,7 +33,6 @@ namespace IntelitraderMobile.ViewModels
             set
             {
                 _isPlaceHolderVisible = value;
-                //RaisePropertyChanged();
             }
         }
 
