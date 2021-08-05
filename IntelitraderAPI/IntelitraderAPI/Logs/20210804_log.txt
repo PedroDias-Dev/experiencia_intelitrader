@@ -647,3 +647,4 @@
 2021-08-04T15:47:32.5259521-03:00 0HMANF0FBBDN6:00000012 [INF] Executed action "IntelitraderAPI.Controllers.UserController.Get (IntelitraderAPI)" in 2.1659ms (afa2e885)
 2021-08-04T15:47:32.5259992-03:00 0HMANF0FBBDN6:00000012 [INF] Executed endpoint '"IntelitraderAPI.Controllers.UserController.Get (IntelitraderAPI)"' (99874f2b)
 2021-08-04T15:47:32.5261156-03:00 0HMANF0FBBDN6:00000012 [INF] Request finished HTTP/1.1 GET http://10.0.2.2:5001/api/User/ - - - 200 - application/json;+charset=utf-8 2.6419ms (791a596a)
+2021-08-04T15:51:08.7268369-03:00  [INF] Application is shutting down... (90f52c38)
