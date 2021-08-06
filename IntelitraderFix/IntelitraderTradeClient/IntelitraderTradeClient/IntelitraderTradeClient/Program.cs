@@ -10,9 +10,7 @@ namespace IntelitraderTradeClient
         [STAThread]
         static void Main(string[] args)
         {
-            Console.WriteLine("=============");
-            Console.WriteLine("TradeClient");
-            Console.WriteLine("=============");
+            Console.WriteLine("Fix TradeClient");
 
             try
             {
@@ -28,7 +26,7 @@ namespace IntelitraderTradeClient
                 application.Run();
                 initiator.Stop();
             }
-            catch (System.Exception e)
+            catch (Exception e)
             {
                 Console.WriteLine(e.Message);
                 Console.WriteLine(e.StackTrace);

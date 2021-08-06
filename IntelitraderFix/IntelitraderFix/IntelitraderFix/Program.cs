@@ -4,19 +4,28 @@ using System.Linq;
 using System.Text;
 using QuickFix;
 using QuickFix.Transport;
+using log4net;
+using log4net.Config;
 
 namespace IntelitraderFix
 {
     class Program
     {
+        private static readonly log4net.ILog log = log4net.LogManager.GetLogger
+            (System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
         [STAThread]
         static void Main(string[] args)
         {
-            Console.WriteLine("=============");
+
+            //log4net.ILog log;
+
+            //BasicConfigurator.Configure();
+            //log = LogManager.GetLogger("Program");
+
             Console.WriteLine("ACCEPTOR");
             Console.WriteLine("TargetCompID = 'SIMPLE' and SenderCompID = 'CLIENT1' or 'CLIENT2'.");
-            Console.WriteLine("Port 5001.");
-            Console.WriteLine("=============");
+            Console.WriteLine("Running on Port 5001.");
 
             try
             {
@@ -27,13 +36,11 @@ namespace IntelitraderFix
                 IAcceptor acceptor = new ThreadedSocketAcceptor(app, storeFactory, settings, logFactory);
 
                 acceptor.Start();
-                Console.WriteLine("press <enter> to quit");
                 Console.Read();
                 acceptor.Stop();
             }
             catch (System.Exception e)
             {
-                Console.WriteLine("==FATAL ERROR==");
                 Console.WriteLine(e.ToString());
             }
         }

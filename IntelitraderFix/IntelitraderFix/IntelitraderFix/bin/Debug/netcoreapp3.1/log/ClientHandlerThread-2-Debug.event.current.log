@@ -1,0 +1,20 @@
+20210806-17:27:35.722 : connected
+20210806-17:27:35.777 : SocketReader Error: Socket exception (127.0.0.1:61619): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:27:35.777 : shutdown requested: Disconnected
+20210806-17:27:35.792 : shutdown requested: Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:27:35.792 : shutdown
+20210806-17:28:28.755 : connected
+20210806-17:28:28.820 : SocketReader Error: Socket exception (127.0.0.1:61630): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:28:28.820 : shutdown requested: Disconnected
+20210806-17:28:28.835 : shutdown requested: Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:28:28.836 : shutdown
+20210806-17:30:59.210 : connected
+20210806-17:30:59.281 : SocketReader Error: Socket exception (127.0.0.1:56842): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:30:59.281 : shutdown requested: Disconnected
+20210806-17:30:59.297 : shutdown requested: Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:30:59.297 : shutdown
+20210806-18:18:33.128 : connected
+20210806-18:19:11.155 : SocketReader Error: Socket exception (127.0.0.1:59447): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-18:19:11.155 : shutdown requested: Disconnected
+20210806-18:19:11.180 : shutdown requested: Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-18:19:11.180 : shutdown

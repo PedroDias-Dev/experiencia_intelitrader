@@ -1,0 +1,140 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "QuickFix.Net.NETCore/1.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/QuickFix.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/QuickFix.dll": {}
+        }
+      },
+      "QuickFix.Net.NETCore.FIX44/1.8.1": {
+        "type": "package",
+        "dependencies": {
+          "QuickFix.Net.NETCore": "1.8.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/QuickFix.FIX44.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/QuickFix.FIX44.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QuickFix.Net.NETCore/1.8.1": {
+      "sha512": "O5zFjO3gfnrvvbWmgH6oJYNQZYz5MlgOXnnFVO6Wt6gXa3c5CNV/EHKuYnBHyzD0TbVcR1kmr/raBhz0oFgCeg==",
+      "type": "package",
+      "path": "quickfix.net.netcore/1.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/QuickFix.dll",
+        "lib/netstandard2.0/QuickFix.xml",
+        "quickfix.net.netcore.1.8.1.nupkg.sha512",
+        "quickfix.net.netcore.nuspec"
+      ]
+    },
+    "QuickFix.Net.NETCore.FIX44/1.8.1": {
+      "sha512": "ee9qnsx/s1zSnWpIGJ4U6zhOxy0LLEPezcS0SPZj2c3IJtezMdi+HSDRYXFIvAqx9VsIxF2++9MbGlr9NeP7Yw==",
+      "type": "package",
+      "path": "quickfix.net.netcore.fix44/1.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/QuickFix.FIX44.dll",
+        "lib/netstandard2.0/QuickFix.FIX44.xml",
+        "quickfix.net.netcore.fix44.1.8.1.nupkg.sha512",
+        "quickfix.net.netcore.fix44.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "QuickFix.Net.NETCore >= 1.8.1",
+      "QuickFix.Net.NETCore.FIX44 >= 1.8.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pedro\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Programação\\Projetos\\Intelitrader\\API\\IntelitraderFix\\IntelitraderTradeClient\\IntelitraderTradeClient\\IntelitraderTradeClient\\IntelitraderTradeClient.csproj",
+      "projectName": "IntelitraderTradeClient",
+      "projectPath": "D:\\Programação\\Projetos\\Intelitrader\\API\\IntelitraderFix\\IntelitraderTradeClient\\IntelitraderTradeClient\\IntelitraderTradeClient\\IntelitraderTradeClient.csproj",
+      "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
+      "outputPath": "D:\\Programação\\Projetos\\Intelitrader\\API\\IntelitraderFix\\IntelitraderTradeClient\\IntelitraderTradeClient\\IntelitraderTradeClient\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "QuickFix.Net.NETCore": {
+            "target": "Package",
+            "version": "[1.8.1, )"
+          },
+          "QuickFix.Net.NETCore.FIX44": {
+            "target": "Package",
+            "version": "[1.8.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.13, 3.1.13]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

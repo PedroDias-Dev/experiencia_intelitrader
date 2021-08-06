@@ -1,0 +1,699 @@
+20210806-17:04:26.371 : Created session
+20210806-17:04:39.279 : Created session
+20210806-17:05:00.628 : Created session
+20210806-17:05:06.687 : Created session
+20210806-17:05:24.852 : Created session
+20210806-17:05:50.201 : Created session
+20210806-17:06:03.880 : Created session
+20210806-17:06:12.999 : Created session
+20210806-17:06:28.184 : Created session
+20210806-17:06:34.853 : Created session
+20210806-17:06:41.621 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12547953 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:54295
+20210806-17:06:41.621 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:06:41.655 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:06:41.661 : Session reset: Reset requested by counterparty
+20210806-17:06:41.671 : Session reset: ResetOnLogon
+20210806-17:06:41.681 : Received logon
+20210806-17:06:41.688 : Responding to logon request
+20210806-17:06:46.415 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:54295): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:06:46.420 : Session reset: ResetOnDisconnect
+20210806-17:07:23.328 : Created session
+20210806-17:07:28.127 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:54303
+20210806-17:07:28.128 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:07:28.155 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:07:28.159 : Session reset: Reset requested by counterparty
+20210806-17:07:28.170 : Session reset: ResetOnLogon
+20210806-17:07:28.181 : Received logon
+20210806-17:07:28.188 : Responding to logon request
+20210806-17:07:49.719 : Message 2 Rejected: Required tag missing (Field=453)
+20210806-17:08:04.852 : Sent test request TEST
+20210806-17:09:36.722 : Created session
+20210806-17:09:37.181 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:51491
+20210806-17:09:37.181 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:09:37.206 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:09:37.211 : Session reset: Reset requested by counterparty
+20210806-17:09:37.221 : Session reset: ResetOnLogon
+20210806-17:09:37.232 : Received logon
+20210806-17:09:37.238 : Responding to logon request
+20210806-17:10:10.205 : Message 3 Rejected: Required tag missing (Field=453)
+20210806-17:10:33.570 : Message 4 Rejected: Invalid MsgType (Field=35)
+20210806-17:10:43.613 : Sent test request TEST
+20210806-17:14:55.615 : Created session
+20210806-17:14:56.121 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:60284
+20210806-17:14:56.121 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:14:56.150 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:14:56.155 : Session reset: Reset requested by counterparty
+20210806-17:14:56.166 : Session reset: ResetOnLogon
+20210806-17:14:56.169 : Received logon
+20210806-17:14:56.180 : Responding to logon request
+20210806-17:15:15.625 : Message 2 Rejected: Required tag missing (Field=453)
+20210806-17:15:32.760 : Sent test request TEST
+20210806-17:15:40.857 : Message 4 Rejected: Required tag missing (Field=453)
+20210806-17:16:09.069 : Sent test request TEST
+20210806-17:16:14.173 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:60284): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:16:14.177 : Session reset: ResetOnDisconnect
+20210806-17:17:12.875 : Created session
+20210806-17:17:13.194 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:58776
+20210806-17:17:13.194 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:17:13.218 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:17:13.223 : Session reset: Reset requested by counterparty
+20210806-17:17:13.231 : Session reset: ResetOnLogon
+20210806-17:17:13.234 : Received logon
+20210806-17:17:13.245 : Responding to logon request
+20210806-17:17:39.823 : Message 2 Rejected: Required tag missing (Field=453)
+20210806-17:17:49.885 : Sent test request TEST
+20210806-17:19:04.774 : Message 6 Rejected: Invalid MsgType (Field=35)
+20210806-17:19:26.909 : Sent test request TEST
+20210806-17:20:42.463 : Message 10 Rejected: Required tag missing (Field=453)
+20210806-17:21:03.640 : Sent test request TEST
+20210806-17:27:29.783 : Created session
+20210806-17:27:31.825 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61617
+20210806-17:27:31.825 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:27:31.855 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:27:31.859 : Session reset: Reset requested by counterparty
+20210806-17:27:31.866 : Session reset: ResetOnLogon
+20210806-17:27:31.890 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:27:31.894 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:27:31.954 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61617): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:27:31.958 : Session reset: ResetOnDisconnect
+20210806-17:27:33.717 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 62476613 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61618
+20210806-17:27:33.717 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:27:33.718 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:27:33.721 : Session reset: Reset requested by counterparty
+20210806-17:27:33.727 : Session reset: ResetOnLogon
+20210806-17:27:33.742 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:27:33.743 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:27:33.756 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61618): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:27:33.765 : Session reset: ResetOnDisconnect
+20210806-17:27:35.732 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 45653674 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61619
+20210806-17:27:35.732 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:27:35.733 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:27:35.736 : Session reset: Reset requested by counterparty
+20210806-17:27:35.743 : Session reset: ResetOnLogon
+20210806-17:27:35.761 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:27:35.761 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:27:35.777 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61619): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:27:35.781 : Session reset: ResetOnDisconnect
+20210806-17:27:37.732 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 39086322 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61620
+20210806-17:27:37.732 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:27:37.732 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:27:37.736 : Session reset: Reset requested by counterparty
+20210806-17:27:37.742 : Session reset: ResetOnLogon
+20210806-17:27:37.758 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:27:37.758 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:27:37.773 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61620): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:27:37.777 : Session reset: ResetOnDisconnect
+20210806-17:27:39.750 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 58366981 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61621
+20210806-17:27:39.750 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:27:39.751 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:27:39.755 : Session reset: Reset requested by counterparty
+20210806-17:27:39.761 : Session reset: ResetOnLogon
+20210806-17:27:39.778 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:27:39.779 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:27:39.792 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61621): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:27:39.796 : Session reset: ResetOnDisconnect
+20210806-17:27:41.774 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 56140151 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61622
+20210806-17:27:41.774 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:27:41.775 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:27:41.778 : Session reset: Reset requested by counterparty
+20210806-17:27:41.785 : Session reset: ResetOnLogon
+20210806-17:27:41.801 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:27:41.801 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:27:41.816 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61622): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:27:41.821 : Session reset: ResetOnDisconnect
+20210806-17:27:43.783 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 49538252 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61623
+20210806-17:27:43.783 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:27:43.783 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:27:43.786 : Session reset: Reset requested by counterparty
+20210806-17:27:43.792 : Session reset: ResetOnLogon
+20210806-17:27:43.807 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:27:43.808 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:27:43.820 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61623): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:27:43.824 : Session reset: ResetOnDisconnect
+20210806-17:27:45.789 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 21647132 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61624
+20210806-17:27:45.789 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:27:45.790 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:27:45.793 : Session reset: Reset requested by counterparty
+20210806-17:27:45.799 : Session reset: ResetOnLogon
+20210806-17:27:45.814 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:27:45.814 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:27:45.828 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61624): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:27:45.831 : Session reset: ResetOnDisconnect
+20210806-17:27:47.818 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 6451435 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61625
+20210806-17:27:47.818 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:27:47.819 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:27:47.822 : Session reset: Reset requested by counterparty
+20210806-17:27:47.828 : Session reset: ResetOnLogon
+20210806-17:27:47.844 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:27:47.844 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:27:47.857 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61625): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:27:47.861 : Session reset: ResetOnDisconnect
+20210806-17:27:49.840 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 34717384 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61626
+20210806-17:27:49.840 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:27:49.841 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:27:49.844 : Session reset: Reset requested by counterparty
+20210806-17:27:49.855 : Session reset: ResetOnLogon
+20210806-17:27:49.874 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:27:49.874 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:27:49.893 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61626): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:27:49.897 : Session reset: ResetOnDisconnect
+20210806-17:27:51.840 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 22460983 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61627
+20210806-17:27:51.840 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:27:51.840 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:27:51.843 : Session reset: Reset requested by counterparty
+20210806-17:27:51.849 : Session reset: ResetOnLogon
+20210806-17:27:51.865 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:27:51.866 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:27:51.879 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61627): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:27:51.883 : Session reset: ResetOnDisconnect
+20210806-17:28:22.853 : Created session
+20210806-17:28:24.853 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61628
+20210806-17:28:24.854 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:28:24.888 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:28:24.893 : Session reset: Reset requested by counterparty
+20210806-17:28:24.902 : Session reset: ResetOnLogon
+20210806-17:28:24.926 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:28:24.930 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:28:24.991 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61628): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:28:24.995 : Session reset: ResetOnDisconnect
+20210806-17:28:26.749 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 62476613 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61629
+20210806-17:28:26.749 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:28:26.749 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:28:26.752 : Session reset: Reset requested by counterparty
+20210806-17:28:26.758 : Session reset: ResetOnLogon
+20210806-17:28:26.774 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:28:26.774 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:28:26.788 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61629): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:28:26.792 : Session reset: ResetOnDisconnect
+20210806-17:28:28.769 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 45653674 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61630
+20210806-17:28:28.769 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:28:28.770 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:28:28.773 : Session reset: Reset requested by counterparty
+20210806-17:28:28.782 : Session reset: ResetOnLogon
+20210806-17:28:28.801 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:28:28.801 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:28:28.820 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61630): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:28:28.823 : Session reset: ResetOnDisconnect
+20210806-17:28:30.785 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 39086322 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61631
+20210806-17:28:30.785 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:28:30.786 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:28:30.789 : Session reset: Reset requested by counterparty
+20210806-17:28:30.796 : Session reset: ResetOnLogon
+20210806-17:28:30.812 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:28:30.812 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:28:30.827 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61631): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:28:30.831 : Session reset: ResetOnDisconnect
+20210806-17:28:32.799 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 58366981 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61632
+20210806-17:28:32.799 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:28:32.800 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:28:32.804 : Session reset: Reset requested by counterparty
+20210806-17:28:32.810 : Session reset: ResetOnLogon
+20210806-17:28:32.826 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:28:32.826 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:28:32.844 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61632): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:28:32.847 : Session reset: ResetOnDisconnect
+20210806-17:28:34.813 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 56140151 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61633
+20210806-17:28:34.813 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:28:34.814 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:28:34.817 : Session reset: Reset requested by counterparty
+20210806-17:28:34.823 : Session reset: ResetOnLogon
+20210806-17:28:34.839 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:28:34.840 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:28:34.853 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61633): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:28:34.857 : Session reset: ResetOnDisconnect
+20210806-17:28:36.841 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 49538252 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61634
+20210806-17:28:36.841 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:28:36.841 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:28:36.844 : Session reset: Reset requested by counterparty
+20210806-17:28:36.851 : Session reset: ResetOnLogon
+20210806-17:28:36.868 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:28:36.868 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:28:36.882 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61634): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:28:36.885 : Session reset: ResetOnDisconnect
+20210806-17:28:38.852 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 21647132 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61635
+20210806-17:28:38.852 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:28:38.852 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:28:38.855 : Session reset: Reset requested by counterparty
+20210806-17:28:38.862 : Session reset: ResetOnLogon
+20210806-17:28:38.879 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:28:38.879 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:28:38.896 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61635): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:28:38.900 : Session reset: ResetOnDisconnect
+20210806-17:28:40.885 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 6451435 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61636
+20210806-17:28:40.885 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:28:40.885 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:28:40.888 : Session reset: Reset requested by counterparty
+20210806-17:28:40.894 : Session reset: ResetOnLogon
+20210806-17:28:40.910 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:28:40.911 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:28:40.927 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61636): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:28:40.931 : Session reset: ResetOnDisconnect
+20210806-17:28:42.903 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 34717384 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61637
+20210806-17:28:42.903 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:28:42.903 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:28:42.906 : Session reset: Reset requested by counterparty
+20210806-17:28:42.913 : Session reset: ResetOnLogon
+20210806-17:28:42.929 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:28:42.930 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:28:42.944 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61637): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:28:42.947 : Session reset: ResetOnDisconnect
+20210806-17:28:44.922 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 22460983 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61638
+20210806-17:28:44.922 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:28:44.922 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:28:44.925 : Session reset: Reset requested by counterparty
+20210806-17:28:44.933 : Session reset: ResetOnLogon
+20210806-17:28:44.949 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:28:44.950 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:28:44.964 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61638): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:28:44.968 : Session reset: ResetOnDisconnect
+20210806-17:28:46.930 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 24388906 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61639
+20210806-17:28:46.930 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:28:46.930 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:28:46.933 : Session reset: Reset requested by counterparty
+20210806-17:28:46.939 : Session reset: ResetOnLogon
+20210806-17:28:46.955 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:28:46.955 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:28:46.969 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61639): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:28:46.972 : Session reset: ResetOnDisconnect
+20210806-17:28:48.942 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 25960677 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61640
+20210806-17:28:48.942 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:28:48.943 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:28:48.946 : Session reset: Reset requested by counterparty
+20210806-17:28:48.953 : Session reset: ResetOnLogon
+20210806-17:28:48.970 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:28:48.970 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:28:48.985 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61640): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:28:48.988 : Session reset: ResetOnDisconnect
+20210806-17:28:50.956 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 31787101 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61641
+20210806-17:28:50.956 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:28:50.957 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:28:50.960 : Session reset: Reset requested by counterparty
+20210806-17:28:50.966 : Session reset: ResetOnLogon
+20210806-17:28:50.983 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:28:50.983 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:28:51.000 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61641): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:28:51.009 : Session reset: ResetOnDisconnect
+20210806-17:28:52.972 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 11865849 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61642
+20210806-17:28:52.972 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:28:52.972 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:28:52.975 : Session reset: Reset requested by counterparty
+20210806-17:28:52.982 : Session reset: ResetOnLogon
+20210806-17:28:52.998 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:28:52.998 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:28:53.013 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:61642): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:28:53.016 : Session reset: ResetOnDisconnect
+20210806-17:30:34.695 : Created session
+20210806-17:30:35.088 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:56834
+20210806-17:30:35.088 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:30:35.117 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:30:35.122 : Session reset: Reset requested by counterparty
+20210806-17:30:35.131 : Session reset: ResetOnLogon
+20210806-17:30:35.135 : Received logon
+20210806-17:30:35.146 : Responding to logon request
+20210806-17:30:55.854 : Created session
+20210806-17:30:56.254 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:56840
+20210806-17:30:56.255 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:30:56.279 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:30:56.284 : Session reset: Reset requested by counterparty
+20210806-17:30:56.293 : Session reset: ResetOnLogon
+20210806-17:30:56.316 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:30:56.319 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:30:56.349 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:56840): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:30:56.354 : Session reset: ResetOnDisconnect
+20210806-17:30:57.214 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 62476613 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:56841
+20210806-17:30:57.214 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:30:57.215 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:30:57.218 : Session reset: Reset requested by counterparty
+20210806-17:30:57.227 : Session reset: ResetOnLogon
+20210806-17:30:57.245 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:30:57.246 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:30:57.266 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:56841): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:30:57.269 : Session reset: ResetOnDisconnect
+20210806-17:30:59.225 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 45653674 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:56842
+20210806-17:30:59.225 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:30:59.225 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:30:59.229 : Session reset: Reset requested by counterparty
+20210806-17:30:59.241 : Session reset: ResetOnLogon
+20210806-17:30:59.263 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:30:59.263 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:30:59.281 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:56842): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:30:59.284 : Session reset: ResetOnDisconnect
+20210806-17:31:01.234 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 39086322 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:56843
+20210806-17:31:01.234 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:31:01.235 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:31:01.239 : Session reset: Reset requested by counterparty
+20210806-17:31:01.246 : Session reset: ResetOnLogon
+20210806-17:31:01.263 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:31:01.263 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:31:01.279 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:56843): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:31:01.283 : Session reset: ResetOnDisconnect
+20210806-17:31:03.244 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 58366981 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:56844
+20210806-17:31:03.244 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:31:03.245 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:31:03.248 : Session reset: Reset requested by counterparty
+20210806-17:31:03.254 : Session reset: ResetOnLogon
+20210806-17:31:03.271 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:31:03.271 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:31:03.286 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:56844): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:31:03.291 : Session reset: ResetOnDisconnect
+20210806-17:31:05.271 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 56140151 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:56845
+20210806-17:31:05.271 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:31:05.272 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:31:05.275 : Session reset: Reset requested by counterparty
+20210806-17:31:05.280 : Session reset: ResetOnLogon
+20210806-17:31:05.297 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:31:05.298 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:31:05.312 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:56845): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:31:05.315 : Session reset: ResetOnDisconnect
+20210806-17:31:07.300 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 49538252 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:56846
+20210806-17:31:07.300 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:31:07.300 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:31:07.303 : Session reset: Reset requested by counterparty
+20210806-17:31:07.310 : Session reset: ResetOnLogon
+20210806-17:31:07.326 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:31:07.327 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:31:07.341 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:56846): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:31:07.345 : Session reset: ResetOnDisconnect
+20210806-17:31:09.306 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 21647132 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:56847
+20210806-17:31:09.306 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:31:09.306 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:31:09.309 : Session reset: Reset requested by counterparty
+20210806-17:31:09.315 : Session reset: ResetOnLogon
+20210806-17:31:09.331 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:31:09.332 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:31:09.345 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:56847): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:31:09.349 : Session reset: ResetOnDisconnect
+20210806-17:31:11.334 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 6451435 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:56848
+20210806-17:31:11.335 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:31:11.335 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:31:11.338 : Session reset: Reset requested by counterparty
+20210806-17:31:11.345 : Session reset: ResetOnLogon
+20210806-17:31:11.363 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20210806-17:31:11.363 : Reject sent for Message: 1 Reason:Unsupported Message Type
+20210806-17:31:11.380 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:56848): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-17:31:11.385 : Session reset: ResetOnDisconnect
+20210806-17:31:24.509 : Created session
+20210806-17:31:25.514 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:56853
+20210806-17:31:25.514 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:31:25.541 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:31:25.545 : Session reset: Reset requested by counterparty
+20210806-17:31:25.552 : Session reset: ResetOnLogon
+20210806-17:31:25.555 : Received logon
+20210806-17:31:25.566 : Responding to logon request
+20210806-17:31:50.842 : Message 2 Rejected: Required tag missing (Field=453)
+20210806-17:32:01.915 : Sent test request TEST
+20210806-17:38:17.881 : Created session
+20210806-17:38:18.171 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:58437
+20210806-17:38:18.172 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:38:18.200 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:38:18.205 : Session reset: Reset requested by counterparty
+20210806-17:38:18.214 : Session reset: ResetOnLogon
+20210806-17:38:18.217 : Received logon
+20210806-17:38:18.231 : Responding to logon request
+20210806-17:39:13.365 : Message 3 Rejected: Required tag missing (Field=453)
+20210806-17:39:25.446 : Sent test request TEST
+20210806-17:41:36.535 : Created session
+20210806-17:41:36.928 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:51914
+20210806-17:41:36.928 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-17:41:36.954 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-17:41:36.959 : Session reset: Reset requested by counterparty
+20210806-17:41:36.968 : Session reset: ResetOnLogon
+20210806-17:41:36.971 : Received logon
+20210806-17:41:36.984 : Responding to logon request
+20210806-17:41:54.135 : Message 2 Rejected: Required tag missing (Field=453)
+20210806-17:42:13.294 : Sent test request TEST
+20210806-18:06:16.665 : Created session
+20210806-18:06:16.924 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:64607
+20210806-18:06:16.924 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-18:06:16.956 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-18:06:16.960 : Session reset: Reset requested by counterparty
+20210806-18:06:16.967 : Session reset: ResetOnLogon
+20210806-18:06:16.971 : Received logon
+20210806-18:06:16.985 : Responding to logon request
+20210806-18:06:53.237 : Sent test request TEST
+20210806-18:06:53.872 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:64607): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-18:06:53.876 : Session reset: ResetOnDisconnect
+20210806-18:07:00.332 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 33156464 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:64609
+20210806-18:07:00.332 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 30 seconds
+20210806-18:07:00.333 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-18:07:00.336 : Session reset: Reset requested by counterparty
+20210806-18:07:00.345 : Session reset: ResetOnLogon
+20210806-18:07:00.345 : Received logon
+20210806-18:07:00.345 : Responding to logon request
+20210806-18:07:14.292 : Message 2 Rejected: Required tag missing (Field=453)
+20210806-18:07:20.558 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:64609): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-18:07:20.563 : Session reset: ResetOnDisconnect
+20210806-18:09:26.284 : Created session
+20210806-18:09:29.582 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:60236
+20210806-18:09:29.583 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-18:09:29.607 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-18:09:29.612 : Session reset: Reset requested by counterparty
+20210806-18:09:29.618 : Session reset: ResetOnLogon
+20210806-18:09:29.621 : Received logon
+20210806-18:09:29.633 : Responding to logon request
+20210806-18:09:38.825 : Message 2 Rejected: Required tag missing (Field=453)
+20210806-18:10:06.056 : Sent test request TEST
+20210806-18:10:42.393 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:60236): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-18:10:42.397 : Session reset: ResetOnDisconnect
+20210806-18:14:25.976 : Created session
+20210806-18:15:58.235 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 48717705 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:55639
+20210806-18:15:58.235 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-18:15:58.264 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-18:15:58.269 : Session reset: Reset requested by counterparty
+20210806-18:15:58.277 : Session reset: ResetOnLogon
+20210806-18:15:58.280 : Received logon
+20210806-18:15:58.292 : Responding to logon request
+20210806-18:16:07.253 : Message 2 Rejected: Tag not defined for this message type (Field=447)
+20210806-18:16:34.461 : Sent test request TEST
+20210806-18:16:56.651 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:55639): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-18:16:56.656 : Session reset: ResetOnDisconnect
+20210806-18:17:12.153 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 8367995 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:55965
+20210806-18:17:12.153 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 30 seconds
+20210806-18:17:12.154 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-18:17:12.157 : Session reset: Reset requested by counterparty
+20210806-18:17:12.165 : Session reset: ResetOnLogon
+20210806-18:17:12.165 : Received logon
+20210806-18:17:12.167 : Responding to logon request
+20210806-18:17:20.445 : Message 2 Rejected: Tag specified without a value (Field=448)
+20210806-18:17:48.685 : Sent test request TEST
+20210806-18:17:54.634 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:55965): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-18:17:54.638 : Session reset: ResetOnDisconnect
+20210806-18:18:33.180 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 23198906 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:59447
+20210806-18:18:33.180 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 30 seconds
+20210806-18:18:33.181 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-18:18:33.184 : Session reset: Reset requested by counterparty
+20210806-18:18:33.193 : Session reset: ResetOnLogon
+20210806-18:18:33.193 : Received logon
+20210806-18:18:33.194 : Responding to logon request
+20210806-18:18:39.884 : Message 2 Rejected: Tag not defined for this message type (Field=448)
+20210806-18:19:10.097 : Sent test request TEST
+20210806-18:19:11.155 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:59447): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-18:19:11.160 : Session reset: ResetOnDisconnect
+20210806-18:19:16.657 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 7328482 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:59451
+20210806-18:19:16.657 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 30 seconds
+20210806-18:19:16.657 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-18:19:16.660 : Session reset: Reset requested by counterparty
+20210806-18:19:16.668 : Session reset: ResetOnLogon
+20210806-18:19:16.669 : Received logon
+20210806-18:19:16.669 : Responding to logon request
+20210806-18:20:49.430 : Message 5 Rejected: Tag not defined for this message type (Field=447)
+20210806-18:22:12.543 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:59451): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-18:22:12.547 : Session reset: ResetOnDisconnect
+20210806-18:24:47.984 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 11249629 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:57149
+20210806-18:24:47.984 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 30 seconds
+20210806-18:24:47.985 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-18:24:47.988 : Session reset: Reset requested by counterparty
+20210806-18:24:47.996 : Session reset: ResetOnLogon
+20210806-18:24:47.996 : Received logon
+20210806-18:24:47.997 : Responding to logon request
+20210806-18:25:04.687 : Message 2 Rejected: Tag not defined for this message type (Field=447)
+20210806-18:25:24.812 : Sent test request TEST
+20210806-18:25:45.247 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:57149): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-18:25:45.251 : Session reset: ResetOnDisconnect
+20210806-18:26:02.463 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 2100502 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:63788
+20210806-18:26:02.463 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 30 seconds
+20210806-18:26:02.464 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-18:26:02.467 : Session reset: Reset requested by counterparty
+20210806-18:26:02.476 : Session reset: ResetOnLogon
+20210806-18:26:02.476 : Received logon
+20210806-18:26:02.477 : Responding to logon request
+20210806-18:26:09.662 : Message 2 Rejected: Incorrect NumInGroup count for repeating group (Field=453)
+20210806-18:26:38.902 : Sent test request TEST
+20210806-18:27:40.126 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:63788): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-18:27:40.130 : Session reset: ResetOnDisconnect
+20210806-18:29:27.890 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 2180452 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:52296
+20210806-18:29:27.890 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 30 seconds
+20210806-18:29:27.890 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-18:29:27.894 : Session reset: Reset requested by counterparty
+20210806-18:29:27.902 : Session reset: ResetOnLogon
+20210806-18:29:27.902 : Received logon
+20210806-18:29:27.903 : Responding to logon request
+20210806-18:29:33.756 : Message 2 Rejected: Tag appears more than once (Field=453)
+20210806-18:30:03.971 : Sent test request TEST
+20210806-18:31:33.444 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:52296): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-18:31:33.447 : Session reset: ResetOnDisconnect
+20210806-18:31:39.670 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 19278973 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:57921
+20210806-18:31:39.670 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 30 seconds
+20210806-18:31:39.670 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-18:31:39.673 : Session reset: Reset requested by counterparty
+20210806-18:31:39.683 : Session reset: ResetOnLogon
+20210806-18:31:39.683 : Received logon
+20210806-18:31:39.684 : Responding to logon request
+20210806-18:31:51.276 : Message 2 Rejected: Value is incorrect (out of range) for this tag (Field=452)
+20210806-18:32:16.485 : Sent test request TEST
+20210806-18:32:43.035 : Session FIX.4.4:SIMPLE->CLIENT1 disconnecting: Socket exception (127.0.0.1:57921): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20210806-18:32:43.041 : Session reset: ResetOnDisconnect
+20210806-18:32:53.113 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 27721435 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:54693
+20210806-18:32:53.113 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 30 seconds
+20210806-18:32:53.114 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-18:32:53.117 : Session reset: Reset requested by counterparty
+20210806-18:32:53.125 : Session reset: ResetOnLogon
+20210806-18:32:53.125 : Received logon
+20210806-18:32:53.126 : Responding to logon request
+20210806-18:34:21.151 : Created session
+20210806-18:34:21.705 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:54732
+20210806-18:34:21.705 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-18:34:21.733 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-18:34:21.738 : Session reset: Reset requested by counterparty
+20210806-18:34:21.746 : Session reset: ResetOnLogon
+20210806-18:34:21.749 : Received logon
+20210806-18:34:21.764 : Responding to logon request
+20210806-18:39:31.802 : Created session
+20210806-18:39:32.251 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:54379
+20210806-18:39:32.251 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-18:39:32.281 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-18:39:32.286 : Session reset: Reset requested by counterparty
+20210806-18:39:32.295 : Session reset: ResetOnLogon
+20210806-18:39:32.298 : Received logon
+20210806-18:39:32.310 : Responding to logon request
+20210806-18:45:20.099 : Created session
+20210806-18:45:20.642 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:63813
+20210806-18:45:20.642 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-18:45:20.673 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-18:45:20.679 : Session reset: Reset requested by counterparty
+20210806-18:45:20.688 : Session reset: ResetOnLogon
+20210806-18:45:20.691 : Received logon
+20210806-18:45:20.703 : Responding to logon request
+20210806-18:48:57.361 : Created session
+20210806-18:48:57.871 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:50241
+20210806-18:48:57.871 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-18:48:57.905 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-18:48:57.912 : Session reset: Reset requested by counterparty
+20210806-18:48:57.927 : Session reset: ResetOnLogon
+20210806-18:48:57.931 : Received logon
+20210806-18:48:57.947 : Responding to logon request
+20210806-18:52:43.747 : Created session
+20210806-18:54:16.366 : Created session
+20210806-18:59:21.159 : Created session
+20210806-19:01:32.862 : Created session
+20210806-19:01:33.375 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:63738
+20210806-19:01:33.376 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-19:01:33.406 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-19:01:33.410 : Session reset: Reset requested by counterparty
+20210806-19:01:33.418 : Session reset: ResetOnLogon
+20210806-19:01:33.421 : Received logon
+20210806-19:01:33.434 : Responding to logon request
+20210806-19:03:15.413 : Created session
+20210806-19:03:15.673 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:63760
+20210806-19:03:15.673 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-19:03:15.704 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-19:03:15.710 : Session reset: Reset requested by counterparty
+20210806-19:03:15.722 : Session reset: ResetOnLogon
+20210806-19:03:15.725 : Received logon
+20210806-19:03:15.744 : Responding to logon request
+20210806-19:10:16.682 : Created session
+20210806-19:10:16.863 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:65013
+20210806-19:10:16.863 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-19:10:16.892 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-19:10:16.897 : Session reset: Reset requested by counterparty
+20210806-19:10:16.904 : Session reset: ResetOnLogon
+20210806-19:10:16.907 : Received logon
+20210806-19:10:16.919 : Responding to logon request
+20210806-19:12:41.039 : Created session
+20210806-19:12:41.124 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:60255
+20210806-19:12:41.124 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-19:12:41.162 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-19:12:41.167 : Session reset: Reset requested by counterparty
+20210806-19:12:41.177 : Session reset: ResetOnLogon
+20210806-19:12:41.181 : Received logon
+20210806-19:12:41.195 : Responding to logon request
+20210806-19:14:03.071 : Created session
+20210806-19:14:04.866 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:62237
+20210806-19:14:04.866 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-19:14:04.895 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-19:14:04.900 : Session reset: Reset requested by counterparty
+20210806-19:14:04.907 : Session reset: ResetOnLogon
+20210806-19:14:04.909 : Received logon
+20210806-19:14:04.921 : Responding to logon request
+20210806-19:15:29.506 : Created session
+20210806-19:15:29.603 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 12547953 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:53443
+20210806-19:15:29.603 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-19:15:29.632 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-19:15:29.636 : Session reset: Reset requested by counterparty
+20210806-19:15:29.644 : Session reset: ResetOnLogon
+20210806-19:15:29.647 : Received logon
+20210806-19:15:29.664 : Responding to logon request
+20210806-19:19:38.139 : Created session
+20210806-19:19:39.793 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:56736
+20210806-19:19:39.794 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-19:19:39.820 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-19:19:39.824 : Session reset: Reset requested by counterparty
+20210806-19:19:39.832 : Session reset: ResetOnLogon
+20210806-19:19:39.836 : Received logon
+20210806-19:19:39.850 : Responding to logon request
+20210806-19:19:58.898 : Created session
+20210806-19:19:59.972 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:56741
+20210806-19:19:59.972 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-19:20:00.001 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-19:20:00.007 : Session reset: Reset requested by counterparty
+20210806-19:20:00.014 : Session reset: ResetOnLogon
+20210806-19:20:00.017 : Received logon
+20210806-19:20:00.031 : Responding to logon request
+20210806-19:20:10.506 : Created session
+20210806-19:20:12.091 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:56744
+20210806-19:20:12.091 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-19:20:12.139 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-19:20:12.145 : Session reset: Reset requested by counterparty
+20210806-19:20:12.154 : Session reset: ResetOnLogon
+20210806-19:20:12.157 : Received logon
+20210806-19:20:12.170 : Responding to logon request
+20210806-19:35:17.654 : Created session
+20210806-19:35:54.581 : Created session
+20210806-19:39:41.503 : Created session
+20210806-19:50:54.058 : Created session
+20210806-19:52:09.718 : Created session
+20210806-19:52:24.196 : Created session
+20210806-19:53:13.156 : Created session
+20210806-19:54:14.460 : Created session
+20210806-19:55:26.904 : Created session
+20210806-19:55:54.200 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 48717705 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:58580
+20210806-19:55:54.201 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-19:55:54.221 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-19:55:54.228 : Session reset: Reset requested by counterparty
+20210806-19:55:54.236 : Session reset: ResetOnLogon
+20210806-19:55:54.239 : Received logon
+20210806-19:55:54.256 : Responding to logon request
+20210806-20:03:45.396 : Created session
+20210806-20:03:45.566 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:54125
+20210806-20:03:45.567 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-20:03:45.580 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-20:03:45.585 : Session reset: Reset requested by counterparty
+20210806-20:03:45.592 : Session reset: ResetOnLogon
+20210806-20:03:45.595 : Received logon
+20210806-20:03:45.607 : Responding to logon request
+20210806-20:05:42.686 : Created session
+20210806-20:05:42.983 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:61251
+20210806-20:05:42.983 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-20:05:43.017 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-20:05:43.023 : Session reset: Reset requested by counterparty
+20210806-20:05:43.033 : Session reset: ResetOnLogon
+20210806-20:05:43.036 : Received logon
+20210806-20:05:43.049 : Responding to logon request
+20210806-21:08:36.496 : Created session
+20210806-21:08:39.796 : FIX.4.4:SIMPLE->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:SIMPLE->CLIENT1 from 127.0.0.1:64412
+20210806-21:08:39.796 : FIX.4.4:SIMPLE->CLIENT1 Acceptor heartbeat set to 0 seconds
+20210806-21:08:39.836 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20210806-21:08:39.843 : Session reset: Reset requested by counterparty
+20210806-21:08:39.852 : Session reset: ResetOnLogon
+20210806-21:08:39.855 : Received logon
+20210806-21:08:39.872 : Responding to logon request

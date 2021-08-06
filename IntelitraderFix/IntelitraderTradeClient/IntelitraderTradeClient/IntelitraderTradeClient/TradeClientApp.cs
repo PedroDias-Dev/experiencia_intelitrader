@@ -209,6 +209,11 @@ namespace IntelitraderTradeClient
         private QuickFix.FIX44.NewOrderSingle QueryNewOrderSingle44()
         {
             QuickFix.Fields.OrdType ordType = null;
+            QuickFix.Fields.PartyID partyID = new QuickFix.Fields.PartyID("a");
+            NoPartyIDs noPartyIDs = new NoPartyIDs(1);
+            PartyIDSource partyIDSource = new PartyIDSource('D');
+            PartyRole partyRole = new PartyRole(3);
+            QuickFix.FIX44.Quote.NoPartyIDsGroup group = new QuickFix.FIX44.Quote.NoPartyIDsGroup();
 
             QuickFix.FIX44.NewOrderSingle newOrderSingle = new QuickFix.FIX44.NewOrderSingle(
                 QueryClOrdID(),
@@ -217,6 +222,12 @@ namespace IntelitraderTradeClient
                 new TransactTime(DateTime.Now),
                 ordType = QueryOrdType());
 
+            //group.SetField(noPartyIDs);
+            group.SetField(partyRole);
+            group.SetField(partyIDSource);
+            group.SetField(partyID);
+
+            newOrderSingle.AddGroup(group);
             newOrderSingle.Set(new HandlInst('1'));
             newOrderSingle.Set(QueryOrderQty());
             newOrderSingle.Set(QueryTimeInForce());
