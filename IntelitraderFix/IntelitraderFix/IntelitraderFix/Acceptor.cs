@@ -13,9 +13,6 @@ namespace IntelitraderFix
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         static readonly decimal DEFAULT_MARKET_PRICE = 10;
 
-        int orderID = 0;
-        int execID = 0;
-
         public void OnMessage(QuickFix.FIX44.NewOrderSingle n, SessionID s)
         {
             Symbol symbol = n.Symbol;
@@ -46,7 +43,6 @@ namespace IntelitraderFix
         {
             Console.WriteLine("FROMAPP OUT: " + message);
         }
-
 
         public void FromAdmin(Message message, SessionID sessionID) { }
         public void ToAdmin(Message message, SessionID sessionID) { }

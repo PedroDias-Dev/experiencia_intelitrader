@@ -18,11 +18,6 @@ namespace IntelitraderFix
         static void Main(string[] args)
         {
 
-            //log4net.ILog log;
-
-            //BasicConfigurator.Configure();
-            //log = LogManager.GetLogger("Program");
-
             Console.WriteLine("ACCEPTOR");
             Console.WriteLine("TargetCompID = 'SIMPLE' and SenderCompID = 'CLIENT1' or 'CLIENT2'.");
             Console.WriteLine("Running on Port 5001.");
