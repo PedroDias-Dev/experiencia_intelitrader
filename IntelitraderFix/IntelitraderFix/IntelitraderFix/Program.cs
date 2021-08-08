@@ -24,7 +24,7 @@ namespace IntelitraderFix
 
             try
             {
-                SessionSettings settings = new SessionSettings("../../../sample_acceptor.cfg");
+                SessionSettings settings = new SessionSettings("../../../acceptor.cfg");
                 IApplication app = new Acceptor();
                 IMessageStoreFactory storeFactory = new FileStoreFactory(settings);
                 ILogFactory logFactory = new FileLogFactory(settings);

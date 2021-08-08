@@ -19,8 +19,8 @@ Exemplo do Log Json
         "IsFIXT":false
     },
     "symbol":"PTR4",
-    "side":"2",
-    "ordType":"2",
+    "side":"buy",
+    "ordType":"market",
     "ordQty":4,
     "price":10,
     "clOrdID":"TEST_ID"
